@@ -25,7 +25,6 @@
     if ($_GET['v2'] < $_GET['v1']){
         die ('2 число не может быть больше 1');
     }
-    $_GET['v2'] = $_GET['v2'] * 10;
     $z = rand($_GET['v1'], $_GET['v2']);
     if (!empty($_GET)) { 
 		if (isset($_GET['flag'])) { 
